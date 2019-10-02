@@ -217,7 +217,15 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  /* For tablets */
+    .container{
+      width:100%;
+    }
+    .auth-image{
+      width:50%;
+    }
+}
 @media screen and (max-width: 640px) {
     /* For mobile phones: */
     #masthead{
